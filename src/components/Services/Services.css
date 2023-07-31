@@ -1,0 +1,34 @@
+.services-section{
+    background: linear-gradient(to bottom,#001E43 , #570169 );
+    margin-top: 80px;
+    border-radius: 105px;
+}
+
+.services{
+    padding-top: 100px;
+    max-width: 1820px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services .services-left-div{
+    padding-top: 100px;
+}
+
+.services .services-right-div{
+    text-align: center;
+}
+
+.services .services-right-div h1{
+    color: white;
+    font-size: 40px;
+    line-height: 66.56px;
+    font-weight: 700;
+}
+.services .services-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:30px;
+}

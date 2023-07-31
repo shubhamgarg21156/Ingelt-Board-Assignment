@@ -1,0 +1,115 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+
+.hero .left-div{
+    padding-top: 50px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero .left-div h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58.09px;
+    text-align: center;
+    margin: 0px;
+}
+
+.hero .left-div ul li{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+}
+.hero .form-div{
+    box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding: 20px 60px;
+    margin-top: 20px;
+}
+.hero .form-div h1{
+    font-size: 36px;
+    text-align: left;
+}
+
+.hero .form-div form{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    margin-top: 20px;
+}
+
+.hero .form-div form input{
+    box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    border: none;   
+    outline: none;
+}
+
+.hero .form-div form button{
+    background: #001E43;
+    padding: 18px 200px;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 14px;
+    border-radius: 10px;
+}
+
+.hero .form-div .terms{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14.52px;
+    text-align: center;
+}
+
+.hero .side-div{
+    position: relative;
+}
+
+.hero .side-image-2{
+    position: absolute;
+    left:-15%;
+    top:25%;
+}
+
+.modules{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.modules div{
+    background-color: #0D1948;
+    border-radius: 40px;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modules div .module-image-div{
+    border-radius: 50%;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modules div h1{
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+}
+
+.modules div p{
+    color: rgba(256,256,256,0.6);
+    font-size: 18px;
+    font-weight: 400;
+}

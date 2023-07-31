@@ -1,0 +1,28 @@
+.services .service-box{
+    /* background : linear-gradient(to bottom,#F5FBF2,#F5FBF2); */
+    border: 1px solid #676966;
+    position: relative;
+    padding: 40px 20px;
+    color: white;
+    border-radius: 30px;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.services .service-box img{
+    position: absolute;
+    top:-40px;
+    left:20px;
+}
+
+.services .service-box h3{
+    padding-left: 40px;
+    font-size: 24px;
+    line-height: 29.05px;
+    font-weight: 700;
+}
+
+.services .service-box ul li{
+    line-height: 26px;
+    font-size: 18px;
+}
